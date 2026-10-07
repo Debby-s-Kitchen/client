@@ -1,0 +1,80 @@
+.splash-screen {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: #fff8ed;
+  overflow: hidden;
+}
+
+.splash-food {
+  font-size: 80px;
+  animation: foodIntro 1s ease-out forwards;
+}
+
+.splash-title {
+  margin-top: 20px;
+  font-size: 30px;
+  font-weight: bold;
+  color: #7a1f1f;
+
+  opacity: 0;
+  animation: titleIntro 1s ease-out 0.5s forwards;
+}
+
+.splash-tagline {
+  margin-top: 10px;
+  font-size: 18px;
+  color: #555;
+
+  opacity: 0;
+  animation: taglineIntro 1s ease-out 1s forwards;
+}
+
+
+/* Food animation */
+@keyframes foodIntro {
+  0% {
+    opacity: 0;
+    transform: scale(0.5) rotate(-15deg);
+  }
+
+  70% {
+    opacity: 1;
+    transform: scale(1.1) rotate(5deg);
+  }
+
+  100% {
+    opacity: 1;
+    transform: scale(1) rotate(0);
+  }
+}
+
+
+/* Business name animation */
+@keyframes titleIntro {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+
+/* Tagline animation */
+@keyframes taglineIntro {
+  from {
+    opacity: 0;
+    transform: translateY(15px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

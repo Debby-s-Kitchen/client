@@ -1,0 +1,29 @@
+@import "tailwindcss";
+
+
+
+
+
+
+
+
+.spinner {
+    width: 40px;
+    height: 40px;
+    border: 5px solid teal;
+    border-top: 5px solid transparent;
+    border-radius: 50%;
+    animation: spin 1s linear infinite;
+}
+
+
+
+.no-scrollbar::-webkit-scrollbar { display: none; }
+.no-scrollbar { -ms-overflow-style: none; scrollbar-width: none; }
+
+body {
+    width: full;
+    height: auto;
+    background-color: #f0e7dd;
+    /* margin: 20px 30px; */
+}
