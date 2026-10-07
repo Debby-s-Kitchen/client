@@ -1,5 +1,5 @@
 import { useState } from "react";
-import Button from "../UI/button";
+import Button from "../UI/Button";
 import Modal from "../UI/Modal";
 import MenuModal from "./component/MenuModal";
 import StatusBadge from "../UI/StatusBadge";
