@@ -2,10 +2,10 @@ import { FaPlateWheat } from "react-icons/fa6";
 import { FaTrash } from "react-icons/fa";
 import Modal from "../UI/modal";
 import { useState } from "react";
-import Button from "../UI/button";
 import { useNavigate } from "react-router-dom";
 import { usePlateStore } from "../Store/PlateStore";
 import { usePlateTotal } from "../Store/usePlateTotals";
+import Button from "../UI/Button";
 
 const FloatingPlate = () => {
   const [isOpen, setIsOpen] = useState(false);

@@ -1,10 +1,6 @@
 import Loading from "./Loading";
 import { twMerge } from "tailwind-merge"; 
 
-
-
-
-
 const Button = ({
   children,
   onClick,

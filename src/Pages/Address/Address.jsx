@@ -1,5 +1,5 @@
-import Input from "../../Components/UI/input";
-import Button from "../../Components/UI/button";
+import Input from "../../Components/UI/Input";
+import Button from "../../Components/UI/Button";
 import { useNavigate } from "react-router-dom";
 import { useDelivery } from "../../Components/Store/DeliveryDetail";
 

@@ -1,9 +1,9 @@
 import Modal from "../../UI/modal";
-import Input from "../../UI/input";
-import Button from "../../UI/button";
 import { useState } from "react";
 import { usePlateStore } from "../../Store/PlateStore";
-import { useAddFood } from '../../../../../../admin/src/Store/UseAddFood';
+import Input from "../../UI/Input";
+import Button from "../../UI/Button";
+import { useAddFood } from "../../Store/UseAddFood";
 
 const PAIR_CATEGORY = {
   Soup: "Swallow",

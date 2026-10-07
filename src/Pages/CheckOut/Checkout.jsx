@@ -1,5 +1,5 @@
 import { useNavigate } from "react-router-dom";
-import Button from "../../Components/UI/button";
+import Button from "../../Components/UI/Button";
 import { useDelivery } from "../../Components/Store/DeliveryDetail";
 import { usePlateStore } from "../../Components/Store/PlateStore";
 import { usePlateTotal } from "../../Components/Store/usePlateTotals";

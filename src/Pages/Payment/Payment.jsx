@@ -1,5 +1,5 @@
 import { useState } from "react"
-import Button from "../../Components/UI/button"
+import Button from "../../Components/UI/Button"
 import Modal from "../../Components/UI/modal"
 
 

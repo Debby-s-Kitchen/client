@@ -1,4 +1,3 @@
-// UI/Input.jsx
 const Input = ({
   type = "text",
   placeholder,

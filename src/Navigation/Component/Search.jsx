@@ -1,4 +1,4 @@
-import Input from "../../Components/UI/input";
+import Input from "../../Components/UI/Input";
 import { CiSearch } from "react-icons/ci";
 
 const Search = () => {

@@ -2,7 +2,7 @@
 
 
 import AuthForm from "../../Components/Auth/AuthForm";
-import Input from "../../Components/UI/input";
+import Input from "../../Components/UI/Input";
 import { useNavigate } from "react-router-dom";
 
 
