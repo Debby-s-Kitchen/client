@@ -3,7 +3,7 @@ import Button from "../../Components/UI/Button";
 import { useDelivery } from "../../Components/Store/DeliveryDetail";
 import { usePlateStore } from "../../Components/Store/PlateStore";
 import { usePlateTotal } from "../../Components/Store/usePlateTotals";
-import Modal from "../../Components/UI/modal";
+import Modal from "../../Components/UI/Modal";
 import { useState } from "react";
 
 const Checkout = () => {

@@ -1,4 +1,4 @@
-import Modal from "../../UI/modal";
+import Modal from "../../UI/Modal";
 import { useState } from "react";
 import { usePlateStore } from "../../Store/PlateStore";
 import Input from "../../UI/Input";

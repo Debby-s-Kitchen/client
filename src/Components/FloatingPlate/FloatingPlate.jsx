@@ -1,6 +1,6 @@
 import { FaPlateWheat } from "react-icons/fa6";
 import { FaTrash } from "react-icons/fa";
-import Modal from "../UI/modal";
+import Modal from "../UI/Modal";
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import { usePlateStore } from "../Store/PlateStore";

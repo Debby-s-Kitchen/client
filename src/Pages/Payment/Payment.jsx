@@ -1,6 +1,6 @@
 import { useState } from "react"
 import Button from "../../Components/UI/Button"
-import Modal from "../../Components/UI/modal"
+import Modal from "../../Components/UI/Modal"
 
 
 

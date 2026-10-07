@@ -1,4 +1,4 @@
-import logo from "../../assets/LogoD.jpeg"
+import logo from "../../assets/logoD.jpeg"
 
 
 

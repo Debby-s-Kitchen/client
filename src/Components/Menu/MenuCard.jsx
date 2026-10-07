@@ -1,6 +1,6 @@
 import { useState } from "react";
 import Button from "../UI/button";
-import Modal from "../UI/modal";
+import Modal from "../UI/Modal";
 import MenuModal from "./component/MenuModal";
 import StatusBadge from "../UI/StatusBadge";
 import { usePlateStore } from "../Store/PlateStore";
