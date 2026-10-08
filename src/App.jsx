@@ -5,7 +5,7 @@ import SignIn from "./Pages/Auth/SignIn";
 import ForgetPassword from "./Pages/Auth/ForgetPassword";
 import ResetPassword from "./Pages/Auth/ResetPassword";
 import OTP from "./Pages/Auth/Otp";
-import Address from "./Pages/Address/Address";
+import Address from "./Pages/Address/Address"
 import Checkout from "./Pages/CheckOut/Checkout";
 import Payment from "./Pages/Payment/Payment";
 
