@@ -6,6 +6,7 @@ import { useNavigate } from "react-router-dom";
 import { usePlateStore } from "../Store/PlateStore";
 import { usePlateTotal } from "../Store/usePlateTotals";
 import Button from "../UI/Button";
+import Input from "../UI/Input";
 
 const FloatingPlate = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -95,14 +96,14 @@ const FloatingPlate = () => {
                     <div className="flex items-center gap-3 shrink-0">
                       <p>N{item.amount}</p>
 
-                      <button
+                      <Button
                         type="button"
                         onClick={() => removeFromCart(item.cartItemId)}
                         aria-label={`Remove ${item.name}`}
                         className="text-red-500 hover:text-red-700"
                       >
                         <FaTrash />
-                      </button>
+                      </Button>
                     </div>
                   </div>
                 ))}
@@ -113,7 +114,7 @@ const FloatingPlate = () => {
                   <label htmlFor="bike-fee-toggle" className="text-sm">
                     Bike fee
                   </label>
-                  <input
+                  <Input
                     id="bike-fee-toggle"
                     type="checkbox"
                     checked={isBikeFEEon}
@@ -125,7 +126,7 @@ const FloatingPlate = () => {
                   <label htmlFor="takeaway-fee-toggle" className="text-sm">
                     Take-away fee
                   </label>
-                  <input
+                  <Input
                     id="takeaway-fee-toggle"
                     type="checkbox"
                     checked={isTakeawayFeeOn}
