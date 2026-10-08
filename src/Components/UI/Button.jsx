@@ -16,7 +16,7 @@ const Button = ({
     primary:
       "bg-[#c57111] hover:bg-[#a35d0e]  disabled:bg-[#a35d0e] h-9 rounded-lg", 
     secondary: 
-      "border bg-[#c57111] rounded-sm border-none hover:bg-gray-300  text-white disabled:bg-teal-300", 
+      "border bg-[#c57111] rounded-sm border-none hover:bg-gray-300  text-white disabled:bg-[#a35d0e]", 
     delete:
       "border bg-red-600 rounded-sm border-none hover:bg-red-500  text-white disabled:bg-red-300", 
     outline:
