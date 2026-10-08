@@ -1,9 +1,8 @@
 
-import { useAddFood } from "../Store/UseAddFood";
 import MenuCard from "./MenuCard";
 
-const MenuGrid = () => {
-const MenuData = useAddFood((state) => state.MenuData);
+const MenuGrid = ({MenuData}) => {
+
 
 
   return (
@@ -12,8 +11,7 @@ const MenuData = useAddFood((state) => state.MenuData);
         <MenuCard
           key={product.id}
           product={product}
-        //   plateItems={plateItems}
-        //  setPlateItems={setPlateItems}
+        
         />
       ))}
     </div>

@@ -1,6 +1,6 @@
 import logo from "../../assets/logoD.jpeg"
 import { useNavigate } from "react-router-dom";
-
+import Button from "../UI/Button";
 
 
 
@@ -48,12 +48,12 @@ const handleDash = () => {
           {children}
 
           
-          <button
+          <Button
             type="submit"
             className="w-full bg-black text-white py-3 rounded-lg"
           >
             {buttonText}
-          </button>
+          </Button>
 
         </form>
       </div>

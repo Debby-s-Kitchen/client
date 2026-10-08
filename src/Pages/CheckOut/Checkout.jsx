@@ -142,7 +142,7 @@ const Checkout = () => {
             </div>
 
             <div className="border-t pt-3 space-y-1 text-sm text-gray-600">
-              {/* The plate itself (combo price, or the amount for rice etc.) */}
+             
               <p className="flex justify-between">
                 <span>
                   {selectedItem.quantity > 1
