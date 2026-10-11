@@ -4,8 +4,7 @@ import { useNavigate } from "react-router-dom";
 import { useDelivery } from "../../Components/Store/DeliveryDetail";
 
 const Address = () => {
-  // CHANGED: ?? "" turns null/undefined into blank paper right at the source,
-  // so .trim() and the inputs below can never receive null
+  
   const address = useDelivery((state) => state.address) ?? "";
   const phone = useDelivery((state) => state.phone) ?? "";
   const info = useDelivery((state) => state.info) ?? "";
@@ -13,7 +12,7 @@ const Address = () => {
 
   const navigate = useNavigate();
 
-  // Now safe: address and phone are always strings
+ 
   const isFormValid = address.trim() !== "" && phone.trim() !== "";
 
   return (

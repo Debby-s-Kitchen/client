@@ -96,14 +96,14 @@ const FloatingPlate = () => {
                     <div className="flex items-center gap-3 shrink-0">
                       <p>N{item.amount}</p>
 
-                      <Button
+                      <div
                         type="button"
                         onClick={() => removeFromCart(item.cartItemId)}
                         aria-label={`Remove ${item.name}`}
                         className="text-red-500 hover:text-red-700"
                       >
                         <FaTrash />
-                      </Button>
+                      </div>
                     </div>
                   </div>
                 ))}
